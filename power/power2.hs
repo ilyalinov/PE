@@ -19,6 +19,6 @@ test2 :: Exp
 test2 = Exp 3 (Square (Square (Mult Deg0)))
 
 main = do
-    putStrLn $ show (eval test0)
-    putStrLn $ show (eval test1)
-    putStrLn $ show (eval test2)
+    putStrLn $ show $ eval test0
+    putStrLn $ show $ eval test1
+    putStrLn $ show $ eval test2
